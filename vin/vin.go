@@ -1,5 +1,5 @@
 package vin
 
 func Manufacturer(vin string) string  {
-	return "WL0"
+	return vin[:3]
 }
